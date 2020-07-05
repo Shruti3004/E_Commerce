@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Modak&family=Poppins:wght@100&display=swap');
+
+
+:root{
+  --mainBlue: #20205c; 
+  --lightBlue: #4475dd; 
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #02083b;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+  overflow-x: hidden !important;
+}
+
+.text-title{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.text-blue{
+  color: var(--mainBlue);
+}
+
+.text-bright{
+  color: var(--lightBlue);
+}
+
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 1.2rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover{
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+.cart-icon{
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
